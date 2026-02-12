@@ -1,0 +1,12 @@
+app_name: Wednesday
+llm:
+  provider: openai
+  model: gpt-4.1-mini
+memory:
+  session_window: 30
+  vector_backend: simple
+personality:
+  profile_path: personalities/wednesday.json
+autonomy:
+  planning_loop_interval_s: 5
+  max_parallel_tasks: 3
